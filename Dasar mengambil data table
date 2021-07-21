@@ -1,0 +1,13 @@
+/*Semangat */
+
+--Mengambil data dari table
+SELECT * FROM file ;
+
+--Mengambil Satu Kolom dari Table
+SELECT kolom FROM file;
+
+--Mengambil Lebih dari Satu Kolom dari Table
+SELECT kolom, kolom1 FROM file;
+
+--Membatasi Pengambilan Jumlah Row Data
+SELECT kolom FROM file LIMIT 3;
